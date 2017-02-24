@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="juan.com.clase4.relojFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="00:00"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/lugar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Greenwich"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        />
+
+</FrameLayout>
